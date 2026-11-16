@@ -51,3 +51,5 @@ Hands-on investigations from my cybersecurity studies at Nasser Centre for Scien
 - `assets/`: screenshots used by the write-ups
 
 *All work was done in isolated lab environments with sample data. Indicators are defanged.*
+
+Write-ups and screenshots are licensed under [CC BY 4.0](LICENSE).
