@@ -4,7 +4,7 @@
 
 | | |
 | --- | --- |
-| **Format** | Series, part 2 of 2. Continues from [tcpdump, Part 1: Capturing and Filtering Live Traffic](tcpdump-part-1-capturing-and-filtering.md) |
+| **Format** | Series, part 2 of 3. Continues from [tcpdump, Part 1: Capturing and Filtering Live Traffic](tcpdump-part-1-capturing-and-filtering.md), continues in [tcpdump, Part 3: Triaging a PCAP and Finding SSLoad Traffic](tcpdump-part-3-pcap-triage-sslload.md) |
 | **Category** | Network analysis |
 | **Environment** | Ubuntu VM `SOC-101-linux`, capture file `2021-09-14.pcap` |
 
@@ -242,4 +242,5 @@ The **TCP three-way handshake**, all visible in the screenshot above:
 
 ---
 
-**Previous:** [tcpdump, Part 1: Capturing and Filtering Live Traffic](tcpdump-part-1-capturing-and-filtering.md)
+**Previous:** [tcpdump, Part 1: Capturing and Filtering Live Traffic](tcpdump-part-1-capturing-and-filtering.md)  
+**Next:** [tcpdump, Part 3: Triaging a PCAP and Finding SSLoad Traffic](tcpdump-part-3-pcap-triage-sslload.md)

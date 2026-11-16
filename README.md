@@ -9,7 +9,7 @@ Hands-on investigations from my cybersecurity studies at Nasser Centre for Scien
 - Phishing email triage: header analysis, SPF, DKIM and DMARC, content decoding and IOC extraction
 - Malware analysis: static analysis of Office and PDF documents, sandboxing, hash and reputation lookups
 - Network analysis: packet capture and PCAP investigation with tcpdump
-- Tooling: CyberChef, VirusTotal, URLScan.io, Hybrid Analysis, ANY.RUN, MXToolbox, oledump, pdfid, pdf-parser, tcpdump, WHOIS
+- Tooling: CyberChef, VirusTotal, URLScan.io, Hybrid Analysis, ANY.RUN, MXToolbox, oledump, pdfid, pdf-parser, tcpdump, cut/sort/uniq, WHOIS
 - Reporting: MITRE ATT&CK mapping, defanged indicators, evidence-based verdicts and recommended actions
 
 ## Write-ups
@@ -37,8 +37,9 @@ Hands-on investigations from my cybersecurity studies at Nasser Centre for Scien
 
 | Write-up | Format | Focus |
 | --- | --- | --- |
-| [tcpdump, Part 1: Capturing and Filtering Live Traffic](network-analysis/tcpdump-part-1-capturing-and-filtering.md) | Series, part 1 of 2 | Interfaces, netcat, a local web server, host and source filters |
-| [tcpdump, Part 2: The TCP Handshake and a PCAP Investigation](network-analysis/tcpdump-part-2-tcp-handshake-and-pcap-investigation.md) | Series, part 2 of 2 | Capturing a netcat session, reading a saved capture and tracing a suspicious download |
+| [tcpdump, Part 1: Capturing and Filtering Live Traffic](network-analysis/tcpdump-part-1-capturing-and-filtering.md) | Series, part 1 of 3 | Interfaces, netcat, a local web server, host and source filters |
+| [tcpdump, Part 2: The TCP Handshake and a PCAP Investigation](network-analysis/tcpdump-part-2-tcp-handshake-and-pcap-investigation.md) | Series, part 2 of 3 | Capturing a netcat session, reading a saved capture and tracing a suspicious download |
+| [tcpdump, Part 3: Triaging a PCAP and Finding SSLoad Traffic](network-analysis/tcpdump-part-3-pcap-triage-sslload.md) | Series, part 3 of 3 | Ranking top talkers with cut, sort and uniq, then tracing SSLoad C2, t.me lookups and a DLL download |
 
 **Series** are written as parts that continue from one another. **Standalone** write-ups can be read on their own.
 

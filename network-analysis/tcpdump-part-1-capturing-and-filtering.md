@@ -4,7 +4,7 @@
 
 | | |
 | --- | --- |
-| **Format** | Series, part 1 of 2. Continues in [tcpdump, Part 2: The TCP Handshake and a PCAP Investigation](tcpdump-part-2-tcp-handshake-and-pcap-investigation.md) |
+| **Format** | Series, part 1 of 3. Continues in [tcpdump, Part 2: The TCP Handshake and a PCAP Investigation](tcpdump-part-2-tcp-handshake-and-pcap-investigation.md) |
 | **Category** | Network analysis |
 | **Environment** | Ubuntu VM `SOC-101-linux`, interface `enp0s3` (10.0.2.15) |
 
